@@ -1,2 +1,21 @@
 GO TO GITLAB TO LEARN ABOUT CI/CD
 GITHUB DATA HANDBOOK
+GITLAB ENTREPRISE DATA PLATFORM
+GITHUB UBER LYFT 
+
+
+
+##
+gcloud auth configure-docker europe-west1-docker.pkg.dev
+docker tag docker-model europe-west1-docker.pkg.dev/moonlit-palace-338110/model-prenom/gender-model
+docker push europe-west1-docker.pkg.dev/moonlit-palace-338110/model-prenom/gender-model
+
+
+## CI/CD
+github action
+
+-> auth GCP/Dockerhub
+-> build docker
+-> push docker
+-> lancer/refresh app
+-> health check
